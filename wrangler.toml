@@ -1,0 +1,14 @@
+name = "helloaa"
+type = "pages"
+
+[
+build
+]
+command = "npm install && ng build --prod"
+directory = "dist/helloaa"
+
+[
+env.production
+]
+node_version = "18"
+API_URL = "https://api.example.com"
